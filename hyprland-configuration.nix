@@ -14,10 +14,6 @@
     rofi-wayland
     swww
     waybar
-    (waybar.overrideAttrs (oldAttrs: {
-      mesonFlags = oldAttrs.mesonFlags ++ [ "-Dexperimental=true" ];
-      })
-    )
   ];
   xdg.portal = {
     enable = true;

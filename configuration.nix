@@ -7,7 +7,6 @@
 {
   imports =
     [ 
-      ./bash-configuration.nix
       ./boot-configuration.nix
       ./docker-configuration.nix
       ./firefox-configuration.nix
@@ -22,6 +21,7 @@
       ./shell-configuration.nix
       ./systemPackages-configuration.nix
       ./user-configuration.nix
+      ./zsh-configuration.nix
     ];
 
   nix.settings.experimental-features = [ "nix-command" "flakes" ];

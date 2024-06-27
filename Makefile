@@ -1,5 +1,4 @@
 update:
-	sudo cp ./bash-configuration.nix /etc/nixos/bash-configuration.nix
 	sudo cp ./boot-configuration.nix /etc/nixos/boot-configuration.nix
 	sudo cp ./configuration.nix /etc/nixos/configuration.nix
 	sudo cp ./docker-configuration.nix /etc/nixos/docker-configuration.nix
@@ -15,5 +14,6 @@ update:
 	sudo cp ./shell-configuration.nix /etc/nixos/shell-configuration.nix
 	sudo cp ./systemPackages-configuration.nix /etc/nixos/systemPackages-configuration.nix
 	sudo cp ./user-configuration.nix /etc/nixos/user-configuration.nix
+	sudo cp ./zsh-configuration.nix /etc/nixos/zsh-configuration.nix
 	sudo nixos-rebuild switch
 

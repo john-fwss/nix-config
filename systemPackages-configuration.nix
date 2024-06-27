@@ -22,6 +22,7 @@
     protoc-gen-go-grpc
     ripgrep
     spotify
+    starship
     steam
     stylua
     vlc
