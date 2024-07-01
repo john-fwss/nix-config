@@ -4,6 +4,9 @@
 
 {
   environment = {
+    variables = {
+      STARSHIP_CONFIG = "/home/fwss/.config/starship/starship.toml";
+    };
     shellAliases = {
       kys = "exit";
       cat = "bat";
