@@ -1,4 +1,5 @@
 # shell-configuration.nix
+# this applies to ALL shells
 
 { ... }:
 

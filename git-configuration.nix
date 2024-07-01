@@ -13,12 +13,13 @@
       {alias.cm = "commit";}
       {alias.co = "checkout";}
       {alias.cp = "cherry-pick";}
+      {alias.d = "diff";}
       {alias.f = "fetch";}
       {alias.l = "log";}
       {alias.pl = "pull";}
       {alias.ps = "push";}
-      {alias.s = "status";}
       {alias.r = "rebase";}
+      {alias.s = "status";}
       {alias.last = "log -1 HEAD";}
     ];
   };
