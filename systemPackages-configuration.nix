@@ -9,6 +9,7 @@
     cliphist
     discord
     eza
+    fastfetch
     gnumake
     gnupg
     go
