@@ -26,6 +26,7 @@
     starship
     steam
     stylua
+    temporal-cli
     vlc
     wl-clipboard
   ];
