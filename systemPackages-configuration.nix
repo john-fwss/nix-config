@@ -16,6 +16,7 @@
     gofumpt
     golangci-lint
     gopls
+    librecad
     lua-language-server
     mkdocs
     nixd
