@@ -4,6 +4,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    atlas
     bat
     buf
     cliphist
@@ -16,6 +17,7 @@
     gofumpt
     golangci-lint
     gopls
+    grpcurl
     librecad
     lua-language-server
     mkdocs
@@ -27,8 +29,10 @@
     starship
     steam
     stylua
+    sqlc
     temporal-cli
     vlc
+    vscodium
     wl-clipboard
   ];
 }
