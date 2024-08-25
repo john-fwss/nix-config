@@ -4,9 +4,9 @@
 
 {
   environment.systemPackages = with pkgs; [
-    atlas
     bat
     buf
+    buf-language-server
     cliphist
     discord
     eza
@@ -17,11 +17,13 @@
     gofumpt
     golangci-lint
     gopls
+    go-migrate
     grpcurl
     librecad
     lua-language-server
     mkdocs
     nixd
+    postgres-lsp
     protoc-gen-go
     protoc-gen-connect-go
     ripgrep
@@ -30,6 +32,7 @@
     steam
     stylua
     sqlc
+    taplo
     temporal-cli
     vlc
     vscodium
