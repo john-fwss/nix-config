@@ -22,6 +22,7 @@
     librecad
     lua-language-server
     mkdocs
+    ngrok
     nixd
     postgres-lsp
     protoc-gen-go
