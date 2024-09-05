@@ -10,6 +10,7 @@
     };
     shellAliases = {
       kys = "exit";
+      code = "codium";
       cat = "bat";
       ls = "eza --tree --long --level 1 --git --no-user --time-style long-iso --group-directories-first --icons=always --header --smart-group";
       g = "git";
