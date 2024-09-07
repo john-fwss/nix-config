@@ -1,7 +1,11 @@
 # systemPackages-configuration.nix
 
-{pkgs, ...}:
+{config, pkgs, ...}:
 
+let
+  unstable = import (builtins.fetchTarball https://github.com/nixos/nixpkgs/tarball/nixpkgs-unstable)
+    { config = config.nixpkgs.config; };
+in
 {
   environment.systemPackages = with pkgs; [
     bat
@@ -24,6 +28,7 @@
     mkdocs
     ngrok
     nixd
+    unstable.ollama
     postgres-lsp
     protoc-gen-go
     protoc-gen-connect-go
