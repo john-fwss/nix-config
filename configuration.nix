@@ -5,25 +5,6 @@
 { ... }:
 
 {
-  imports =
-    [ 
-      ./boot-configuration.nix
-      ./docker-configuration.nix
-      ./firefox-configuration.nix
-      ./fonts-configuration.nix
-      ./git-configuration.nix
-      ./hardware-configuration.nix
-      ./hyprland-configuration.nix
-      ./i18n-configuration.nix
-      ./neovim-configuration.nix
-      ./networking-configuration.nix
-      ./pipewire-configuration.nix
-      ./shell-configuration.nix
-      ./systemPackages-configuration.nix
-      ./user-configuration.nix
-      ./zsh-configuration.nix
-    ];
-
   nix.settings.experimental-features = [ "nix-command" "flakes" ];
   
   nixpkgs.config.allowUnfree = true;
