@@ -1,10 +1,10 @@
-{ nixpkgs, ... }:
+{ pkgs, ... }:
 {
   xdg.portal = {
     enable = true;
     extraPortals = [
-      nixpkgs.xdg-desktop-portal-gtk
-      nixpkgs.xdg-desktop-portal-wlr
+      pkgs.xdg-desktop-portal-gtk
+      pkgs.xdg-desktop-portal-wlr
     ];
   };
 }

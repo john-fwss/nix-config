@@ -1,4 +1,4 @@
-{ nixpkgs, ... }:
+{ pkgs, ... }:
 
 {
   environment = {
@@ -20,7 +20,7 @@
     };
     # KEEP THIS LIST ALPHABETICAL. DONT KNOW THE ALPHABET? CONSULT THIS CHART:
     # A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-    systemPackages = with nixpkgs; [
+    systemPackages = with pkgs; [
       bat
       buf
       buf-language-server
@@ -33,7 +33,7 @@
       gnupg
       go
       gofumpt
-      golang-ci-lint
+      golangci-lint
       gopls
       go-migrate
       grpcurl

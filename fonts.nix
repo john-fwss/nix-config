@@ -1,7 +1,7 @@
-{ nixpkgs, ...}:
+{ pkgs, ...}:
 
 {
-  fonts.packages = with nixpkgs; [
+  fonts.packages = with pkgs; [
     nerdfonts
   ];
 }
